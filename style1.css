@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: rgb(6, 196, 199);
+}
+table { 
+    height: 310px;
+    width: 407px;
+    border:2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-left: auto; 
+    margin-right: auto; 
+    align-items: center;
+    background-color: darkgray;
+}
+input[type="button"] { 
+    width: 100%;
+    padding: 20px 40px; 
+    background-color: green; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
+.reset{
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: green; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+}
+.ans{
+    padding: 20px 30px; 
+    font-size: 26px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 5px;
+    background-color: darkgoldenrod;
+}
